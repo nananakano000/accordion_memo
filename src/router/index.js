@@ -1,26 +1,23 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import MemoListItem from '@/components/MemoListItem'
+
+import TopPage from '@/atomic/Page/TopPage'
+import SelectNotePage from '@/atomic/Page/SelectNotePage'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/helloworld',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/',
+      name: 'TopPage',
+      component: TopPage
     },
     {
-      path: '/',
-      name: 'MemoListItem',
-      component: MemoListItem
-    },
-    {
-      path: '/',
-      name: 'MemoListItem',
-      component: MemoListItem
+      path: '/SelectNotePage/:docId',
+      name: 'SelectNotePage',
+      component: SelectNotePage,
+      props: true
     }
   ]
 })

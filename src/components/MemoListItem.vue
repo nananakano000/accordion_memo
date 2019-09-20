@@ -12,23 +12,29 @@
 </template>
 
 <script>
-export default {
-  name: "MemoListItem",
-  data() {
-    return {
-      msg: "Welcome to Your Vue.js App"
-    };
-  },
-  methods:{
-    addClick: function(){
-      this.$emit('add-event', 'MemoListItem');
-    },
-    deleteClick: function(){
-      this.$emit('delete-event', 'MemoListItem');
-    },
-    dropdownList: function(){
-      this.$emit('dropdown-event', 'MemoListItem');
-    }
-  }
-};
+// export default {
+//   name: "MemoListItem",
+//   data() {
+//     return {
+//       msg: "Welcome to Your Vue.js App"
+//     };
+//   },
+//   methods:{
+//     addClick: function(){
+//       this.$emit('add-event', 'MemoListItem');
+//     },
+//     deleteClick: function(){
+//       this.$emit('delete-event', 'MemoListItem');
+//     },
+//     dropdownList: function(){
+//       this.$emit('dropdown-event', 'MemoListItem');
+//     }
+//   }
+// };
 </script>
+
+<style>
+textarea {
+  width: 90%;
+}
+</style>
