@@ -1,5 +1,5 @@
 <template>
-  <div class="add-notebook-button">
+  <div class="textarea">
     <b-input
       :type="type"
       :name="name"

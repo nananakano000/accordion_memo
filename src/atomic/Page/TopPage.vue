@@ -51,6 +51,6 @@ ul {
   list-style: none;
 }
 .page{
-  margin-left: 20px;
+  margin-left: 5%;
 }
 </style>

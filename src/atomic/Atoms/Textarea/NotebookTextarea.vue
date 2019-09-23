@@ -1,5 +1,5 @@
 <template>
-  <div id="nb-textarea">
+  <div class="textarea">
     <b-input
       :type="type"
       :name="name"
@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style>
-#nb-textarea {
-  padding-right: 200px;
+.textarea {
+  margin-right: 50%;
 }
 </style>

@@ -171,4 +171,7 @@ export default {
 ul {
   list-style: none;
 }
+.page{
+  margin-left: 5%;
+}
 </style>
